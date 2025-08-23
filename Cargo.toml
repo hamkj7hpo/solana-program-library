@@ -35,6 +35,7 @@ members = [
   "managed-token/program",
   "shared-memory/program",
   "stateless-asks/program",
+  "libraries/discriminator",
   #"token-collection/program",
   "token-lending/cli",
   "token-lending/flash_loan_receiver",

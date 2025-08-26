@@ -39,7 +39,8 @@ members = [
   "token-wrap/program",
   "utils/cgen",
   "utils/test-client",
-  "token",  # Added to include spl-token package
+  "token",
+  "program-error",  # Added to include spl-program-error package
 ]
 
 exclude = []

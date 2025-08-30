@@ -29,7 +29,7 @@ spl-associated-token-account = { version = "6.0.0", features = [
   "no-entrypoint",
 ] }
 spl-associated-token-account-client = { version = "2.0.0" }
-spl-token = { version = "7.0", features = [
+spl-token = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-token", features = ["no-entrypoint"] }
   "no-entrypoint",
 ] }
 thiserror = "^2.0.9"

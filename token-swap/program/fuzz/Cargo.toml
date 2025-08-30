@@ -13,11 +13,13 @@ honggfuzz = { version = "0.5.56" }
 arbitrary = { version = "1.4", features = ["derive"] }
 solana-program = "2.1.0"
 spl-math = { version = "0.3", path = "../../../libraries/math" }
-spl-token = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-token", features = ["no-entrypoint"] }
-spl-token-swap = { path = "..", features = ["fuzz", "no-entrypoint"] }
+spl-token = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-token" }
 
 [[bin]]
 name = "token-swap-instructions"
 path = "src/instructions.rs"
 test = false
 doc = false
+
+[features]
+no-entrypoint = []

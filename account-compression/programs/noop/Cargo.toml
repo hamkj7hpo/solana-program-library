@@ -12,7 +12,6 @@ crate-type = ["cdylib", "lib"]
 
 [features]
 no-entrypoint = []
-cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]

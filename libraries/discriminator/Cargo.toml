@@ -11,6 +11,6 @@ edition = "2021"
 crate-type = ["cdylib", "lib"]
 
 [dependencies]
-solana-program = { git = "https://github.com/solana-labs/solana.git", rev = "b1e378009ffee4c75965723d3317fccbebcf2524" }
+solana-program = { git = "https://github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-program" }
 spl-program-error = { path = "../../program-error", version = "0.4.2" }
 bytemuck = { version = "1.17.1", features = ["derive"] }

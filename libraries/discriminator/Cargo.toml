@@ -3,7 +3,6 @@ name = "spl-discriminator"
 version = "0.4.1"
 description = "Solana Program Library Discriminator"
 authors = ["Solana Labs Maintainers <maintainers@solanalabs.com>"]
-repository = "https://github.com/solana-labs/solana-program-library"
 license = "Apache-2.0"
 edition = "2021"
 

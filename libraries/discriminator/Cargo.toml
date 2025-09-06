@@ -10,6 +10,6 @@ edition = "2021"
 crate-type = ["cdylib", "lib"]
 
 [dependencies]
-solana-program = { git = "https://github.com/hamkj7hpo/solana.git", rev = "079536b934de349771fa8a0e9945bcef01f529cc", package = "solana-program" }
+solana-program = { git = "https://github.com/hamkj7hpo/solana.git", rev = "079536b9" }
 spl-program-error = { path = "../../program-error", version = "0.4.2" }
 bytemuck = { version = "1.17.1", features = ["derive"] }

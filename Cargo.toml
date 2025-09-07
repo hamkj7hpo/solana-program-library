@@ -58,3 +58,6 @@ check-cfg = [
 pre-release-commit-message = "Publish {{crate_name}} v{{version}}"
 tag-message = "Publish {{crate_name}} v{{version}}"
 consolidate-commits = false
+
+[patch.crates-io]
+zeroize = "1.3.0"
